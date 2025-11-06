@@ -1,0 +1,29 @@
+# .gitignore
+
+# environment files
+.env
+*.env
+
+# local cache / virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# build artifacts
+*.log
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# FAISS index
+faiss_index/
